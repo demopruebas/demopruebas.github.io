@@ -575,7 +575,11 @@ margin-right: 13px;
 .bgblue {
   background-color: #D2E4EC;
   border-radius: 10px;
-  padding: 30px 20px;
+  padding: 50px;
+}
+.contacto .section-title h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .contacto span {
   color: #016EA7;
@@ -588,6 +592,56 @@ margin-right: 13px;
 .contacto a:hover {
   color: #016EA7;
 }
+[type=submit] {
+  border-radius: 20px;
+  background: var(--principal, #016EA7);
+  display: flex;
+  width: 100%;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  color: white;
+  border: transparent;
+  padding: 0px;
+}
+textarea {
+  border-bottom: 1px solid rgba(95, 95, 95, 0.30);
+  display: flex;
+  width: 100%;
+  height: 183px;
+  padding: 10px 0px;
+  align-items: flex-start;
+  gap: 10px;
+  background: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  margin-bottom: 50px;
+}
+input {
+  border-bottom: 1px solid rgba(95, 95, 95, 0.30);
+  display: flex;
+  width: 100%;
+  padding: 10px 0px;
+  align-items: flex-start;
+  gap: 10px;
+  background: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  margin-bottom: 10px;
+}
+.infocontact {
+  padding: 20px 40px;
+}
+
+@media (max-width: 991px) {
+  .bgblue {
+    padding: 20px;
+  }
+}
 /*--------------------------------------------------------------
 # Map
 --------------------------------------------------------------*/
@@ -595,7 +649,7 @@ margin-right: 13px;
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 52px;
+  bottom: 62px;
   right: 10px;
   background-color: #25d366;
   color: white;
